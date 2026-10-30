@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+input {
+    padding: 8px;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+li {
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.oculto {
+    display: none;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Radiografía de Visual Studio Code</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Visual Studio Code</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>1. Interacción con JavaScript</h2>
+
+            <p>Pulsa el botón para probar la interacción.</p>
+
+            <button id="boton-saludo">Pulsar aquí</button>
+
+            <p id="mensaje">Todavía no has pulsado el botón.</p>
+        </section>
+
+        <section>
+            <h2>2. Información de Visual Studio Code</h2>
+
+            <button id="boton-info" aria-expanded="false" aria-controls="informacion">
+                Mostrar información
+            </button>
+
+            <div id="informacion" class="oculto">
+
+                <h3>Instalación</h3>
+                <p>Visual Studio Code se puede descargar gratuitamente desde su página oficial.</p>
+
+                <h3>Ventajas</h3>
+                <p>Es un editor gratuito, rápido y compatible con muchos lenguajes de programación.</p>
+
+                <h3>Extensiones</h3>
+                <p>Permite instalar extensiones para añadir nuevas funciones al editor.</p>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Características</h2>
+
+            <label for="busqueda">Buscar característica:</label>
+
+            <input type="text" id="busqueda" placeholder="Escribe para buscar...">
+
+            <p id="contador"></p>
+
+            <ul id="lista-caracteristicas"></ul>
+
+            <p id="sin-resultados" class="oculto">
+                No se han encontrado resultados.
+            </p>
+        </section>
+
+        <section>
+            <h2>4. Cliente y servidor</h2>
+
+            <p>
+                El navegador es el cliente y solicita los archivos al servidor.
+                El servidor entrega los archivos HTML, CSS y JavaScript.
+                El navegador interpreta estos archivos y muestra la página.
+                Podemos comprobar las peticiones desde la pestaña Red del navegador.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
